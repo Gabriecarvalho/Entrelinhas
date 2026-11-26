@@ -78,7 +78,7 @@ pip install -r requirements.txt
 Inicie o servidor Python:
 
 ```bash
-uvicorn main:app --reload --port 8000
+uvicorn app.main:app --reload --port 8000
 ```
 
 A API ficará disponível em http://localhost:8000.
